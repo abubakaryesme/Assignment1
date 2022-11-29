@@ -111,7 +111,7 @@ img:hover{
 
 .commands{
     background-color: #1e1f26;
-    
+    padding-bottom: 1rem;
 }
 
 .commands > h1{
@@ -133,17 +133,6 @@ img:hover{
 }
 
 
-.cmdTwo{
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: space-between;
-    height: 75vh;
-    background-color: #4d648d;
-}
-
 .cmdHeading{
     font-size: xx-large;
 }
@@ -152,6 +141,18 @@ img:hover{
 {
     width: 80vh;
     align-self: center;
+    margin: 1rem;
+}
+.cmdTwoImg{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cmdImg1
+{
+    width: 80vh;
     margin: 1rem;
 }
 
