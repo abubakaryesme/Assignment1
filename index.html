@@ -10,15 +10,16 @@
 <body>
     <header >
         <nav class="headerNav">
-            <a href="#"><h4>Introduction</h4></a>
-            <a href="#"><h4>Account</h4></a>
-            <a href="#"><h4>Commands</h4> </a>
-            <a href="#"><h4 id="ContactUs">Contact US</h4></a>
+            <a href="#"><h4 class="webName">Git-Tutor</h4></a>
+            <a href="#introduction"><h4>Introduction</h4></a>
+            <a href="#accounts"><h4>Account</h4></a>
+            <a href="#commands"><h4>Commands</h4> </a>
+            <a href="#contact"><h4 id="ContactUs">Contact US</h4></a>
         </nav>
     </header>
 
     <main>
-        <div class="intro">
+        <div class="intro" id="introduction">
             
             <div class="introPara">
                 <p><b style="font-size: xx-large; ">GitHub</b> is a code hosting platform for version control and collaboration. 
@@ -29,7 +30,7 @@
 
         </div>
 
-        <div class="accountGit">
+        <div class="accountGit" id="accounts">
             <h1>CREATE ACCOUNT & DOWNLOAD GIT </h1>
             <div class="account">
                 <div class="accountBox">
@@ -45,7 +46,7 @@
             </div>
         </div>
         
-        <div class="commands">
+        <div class="commands" id="commands">
             <h1 style="padding-top: 0.5rem;"><u>COMMAND</u> </h1>
             <div class="cmdOne">
                 <h5 class="cmdHeading">1. git init</h5>
@@ -149,9 +150,12 @@
                     into any other local branches or pushed to a remote repository and Flag "-D" is used when
                     you want to force deletion of the branch, even if it contains unmerged / unpushed commits.
             </div>
-            
+
         </div>
 
+        <div id="contact">
+            
+        </div>
     </main>
 </body>
 </html>
